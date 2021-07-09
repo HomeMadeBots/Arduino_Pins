@@ -1,0 +1,14 @@
+@startuml
+
+class Arduino_Discrete_Output_Pin
+{
+  Allows to set the hardware level of a discrete output
+  pin of an Arduino board.
+  It encapsulate the Arduino platform.
+  --
+  + Arduino_Pin_Id:uint8
+  --
+  Initialize()
+}
+
+@enduml
