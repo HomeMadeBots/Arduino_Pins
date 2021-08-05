@@ -5,8 +5,14 @@
 !includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/Discrete_Output.iuml
 !includeurl https://raw.githubusercontent.com/HomeMadeBots/Arduino_Pins/main/doc/Arduino_Discrete_Output_Pin.iuml
 
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/T_Voltage_5.iuml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/Analogic_Input_5.iuml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Arduino_Pins/main/doc/Arduino_Analogic_Input_Pin_5.iuml
 
-E_IO_Level <. Discrete_Output : use
+E_IO_Level <.. Discrete_Output : use
 Discrete_Output <|..# "Discrete_Pin" Arduino_Discrete_Output_Pin
+
+T_Voltage_5 <.. Analogic_Input_5 : use
+Analogic_Input_5 <|..# "Pin" Arduino_Analogic_Input_Pin_5
 
 @enduml

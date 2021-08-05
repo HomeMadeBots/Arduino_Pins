@@ -1,0 +1,11 @@
+@startuml
+
+class Arduino_Analogic_Input_Pin_5 <<Component_Type>>
+{
+  Allows to access the voltage of a pin of an Arduino board.
+  It encapsulates the Arduino platform.
+  --
+  + Arduino_Pin_Id:uint8
+}
+
+@enduml

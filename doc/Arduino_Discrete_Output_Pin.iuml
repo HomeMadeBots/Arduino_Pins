@@ -1,10 +1,10 @@
 @startuml
 
-class Arduino_Discrete_Output_Pin
+class Arduino_Discrete_Output_Pin <<Component_Type>>
 {
   Allows to set the hardware level of a discrete output
   pin of an Arduino board.
-  It encapsulate the Arduino platform.
+  It encapsulates the Arduino platform.
   --
   + Arduino_Pin_Id:uint8
   --
