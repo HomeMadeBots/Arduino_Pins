@@ -1,0 +1,18 @@
+@startuml
+
+!includeurl https://gist.githubusercontent.com/Arnaud-Bonneuil/c317a7a30bed7d64e2b5b1f558ac00cf/raw/sober.plantuml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/E_IO_Level.puml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/Discrete_Output.puml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Arduino_Pins/main/doc/Arduino_Discrete_Output_Pin.puml
+
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/T_Voltage_5.puml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/Analogic_Input_5.puml
+!includeurl https://raw.githubusercontent.com/HomeMadeBots/Arduino_Pins/main/doc/Arduino_Analogic_Input_Pin_5.puml
+
+E_IO_Level <.. Discrete_Output : use
+Discrete_Output <|..# "Discrete_Pin" Arduino_Discrete_Output_Pin
+
+T_Voltage_5 <.. Analogic_Input_5 : use
+Analogic_Input_5 <|..# "Pin" Arduino_Analogic_Input_Pin_5
+
+@enduml

@@ -3,4 +3,4 @@ This package gathers component types allowing to abstract the Arduino plateform 
 
 ## Physical architecture
 
-![physical architecture](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/HomeMadeBots/Arduino_Pins/master/doc/Arduino_Pins.iuml)
+![physical architecture](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/HomeMadeBots/Arduino_Pins/master/doc/Arduino_Pins.puml)
