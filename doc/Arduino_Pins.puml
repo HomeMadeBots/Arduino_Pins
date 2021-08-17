@@ -1,6 +1,6 @@
 @startuml
 
-!includeurl https://gist.githubusercontent.com/Arnaud-Bonneuil/c317a7a30bed7d64e2b5b1f558ac00cf/raw/sober.plantuml
+!includeurl https://gist.githubusercontent.com/Arnaud-Bonneuil/c317a7a30bed7d64e2b5b1f558ac00cf/raw/sober.puml
 !includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/E_IO_Level.puml
 !includeurl https://raw.githubusercontent.com/HomeMadeBots/Hardware_IO_Interfaces/main/doc/Discrete_Output.puml
 !includeurl https://raw.githubusercontent.com/HomeMadeBots/Arduino_Pins/main/doc/Arduino_Discrete_Output_Pin.puml
